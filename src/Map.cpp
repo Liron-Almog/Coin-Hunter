@@ -246,8 +246,6 @@ void Map::drawMap(sf::RenderWindow& window, const float &deltaTime) {
 	window.clear();
 	window.draw(m_gameBG);
 
-	m_gameTime.drawTime(window);
-
 	//if created explosion on map as result from 
 	//collision with terrorist ,so dont draw the player
 	if(!m_player->isDisposed())
@@ -257,7 +255,8 @@ void Map::drawMap(sf::RenderWindow& window, const float &deltaTime) {
 
 	Player* player;
 	player = dynamic_cast<Player*>(m_player.get());
-
+	
+	m_gameTime.drawTime(window);
 	m_infoLevel.draw(window,player->getBullets(),m_stage,player->getLives(), player->getStars());
 	window.display();
 }
