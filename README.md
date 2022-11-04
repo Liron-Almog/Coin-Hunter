@@ -7,4 +7,4 @@ him to next level. As the player makes his way to the door, he needs to avoid th
 <img width="798" alt="Menu" src="https://user-images.githubusercontent.com/100926289/190889592-57123d63-4752-43ae-ad24-d2d23fe89c0a.png">
 <img width="800" alt="Coin-Hunter_" src="https://user-images.githubusercontent.com/100926289/190890061-94cdf7f6-15c9-4f44-bc25-5017f76c7cd3.png">
 
-https://www.youtube.com/watch?v=6HyjesAFDAs
+https://www.youtube.com/watch?v=6HyjesAFDAs <--
